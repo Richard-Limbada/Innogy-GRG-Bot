@@ -11,6 +11,14 @@ window.onload = function () {
         console.log("THE DxdfgndryjnATA", data);
 
     });
+    new Vivus('my-svg1', {duration: 200}, function (data) {
+        console.log("THE DxdfgndryjnATA", data);
+
+    });
+        new Vivus('my-svg2', {duration: 200}, function (data) {
+        console.log("THE DxdfgndryjnATA", data);
+
+    });
     
     
     AOS.init({
