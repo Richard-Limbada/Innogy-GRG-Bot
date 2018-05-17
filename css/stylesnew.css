@@ -38,3 +38,19 @@ h2 {
     font-weight: 100;
     line-height: 26px;
 }
+
+.botArea {
+    background-color: grey;
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botBox {
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    min-width: 200px;
+    border: solid #efe9e9;
+}
