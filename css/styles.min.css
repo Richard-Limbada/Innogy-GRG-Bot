@@ -48,6 +48,10 @@ body.--ready {
     opacity: 1;
     visibility: visible
 }
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
 .homepage {
     position: absolute;
