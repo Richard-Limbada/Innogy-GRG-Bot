@@ -61,7 +61,7 @@ body.--ready {
 }
 
 .homepage>div:first-child {
-    max-width: 1300px;
+    max-width: 1000px;
     position: relative;
     top: 20%;
     width: 100%;
@@ -166,7 +166,7 @@ body {
 }
 
 .header__beam {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 25px
 }
@@ -410,6 +410,37 @@ body {
     }
 }
 
+.get-started-button {
+    background-color: #F59B00;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    z-index: 99999;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    transition: 2s all ease;
+}
+.get-started-button img {
+    margin-top: 14px;
+    margin-left: 15px;
+}
+.get-started-button:hover img {
+    transform: rotate(360deg);
+    transform-origin: center center;
+    transition: 0.6s all ease;
+}
+.button-text {
+    width: 74px;
+    margin-top: 30px;
+    opacity: 0;
+}
+.get-started-button:hover .button-text {
+    opacity: 1;
+    transition: 2s all ease;
+}
+
 .vacancies__banner {
     width: 100%;
     height: 300px;
@@ -422,7 +453,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     overflow: hidden;
     padding: 0 25px;
     margin: 0 auto
@@ -445,7 +476,7 @@ body {
 }
 
 .vacancies__header h1 {
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
     padding: 0 25px;
     display: block;
@@ -464,7 +495,7 @@ body {
 .vacancies__vacancy__topbar__index {
     position: relative;
     padding: 0 25px;
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     overflow: hidden
@@ -509,7 +540,7 @@ body {
     position: relative;
     padding: 30px 25px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto;
     font-weight: 200;
     line-height: 1.5;
@@ -632,7 +663,7 @@ body {
 }
 
 .contact__lists {
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 30px 25px;
     margin: 0 auto;
     overflow: hidden
@@ -728,14 +759,15 @@ body {
     height: 400px;
     overflow: hidden;
     background: no-repeat 20% 50%;
-    background-size: cover
+    background-size: cover;
+    transform: scaleX(-1);
 }
 
 .about__banner>div:first-child {
     position: relative;
     top: 90px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     height: 300px;
     margin: 0 auto;
     padding: 0 25px;
@@ -755,7 +787,7 @@ body {
 .about__banner__title {
     color: #000;
     font-size: 30px;
-    font-weight: 100
+    font-weight: 400;
 }
 
 .about-container {
@@ -765,7 +797,7 @@ body {
 
 .about__introduction {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     height: auto;
     padding: 80px 22px;
     margin: 0 auto;
@@ -971,16 +1003,16 @@ body {
 	mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 .location:nth-of-type(1) {
-	background-image: url(../img/berlin.png);
+	background-image: url(../img/berlin2.png);
 }
 .location:nth-of-type(2) {
-	background-image: url(../img/amsterdam.png);
+	background-image: url(../img/amsterdam2.png);
 }
 .location:nth-of-type(3) {
-	background-image: url(../img/capetown.png);
-	background-size: contain;
+	background-image: url(../img/capetown2.png);
 	/*transform: scale(0.7);*/
 }
 .location p {
@@ -1012,7 +1044,7 @@ body {
     height: 70px;
     line-height: 70px;
     font-weight: 200;
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 0 25px;
     margin: 0 auto
 }
@@ -1056,7 +1088,7 @@ body {
 
 .about__whatwedo__topic__index__mask {
     position: relative;
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 0 25px;
     margin: 0 auto;
     overflow: hidden
@@ -1107,7 +1139,7 @@ body {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 0 25px;
     margin: 0 auto;
     overflow: hidden
@@ -1155,13 +1187,13 @@ body {
 
     .about__banner__title {
     	width: 100%;
-    	max-width: 1300px;
+    	max-width: 1000px;
     	margin: 0 auto;
     	padding-left: 25px;
     	margin-top: 125px;
         font-size: 50px;
         color: #ffffff;
-        font-weight: 300;
+        font-weight: 400;
         text-transform: uppercase;
     }
 
@@ -1187,7 +1219,7 @@ body {
         display: table-cell;
         display: block;
         padding-left: 10px;
-        /*vertical-align: middle;*/
+        vertical-align: top;
     }
 
     .about__introduction__declaration p:first-child {
@@ -1315,7 +1347,7 @@ body {
     height: 0;
     overflow: hidden;
     padding: 0 25px;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto
 }
 
@@ -1341,7 +1373,7 @@ body {
 .team__navigation__index,.team__navigation__index__mask {
     height: auto;
     overflow: hidden;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto
 }
 
@@ -1430,7 +1462,7 @@ body {
 
 .team__overview .employee>div:last-child {
     position: relative;
-    max-width: 1300px;
+    max-width: 1000px;
     height: inherit;
     margin: 0 auto;
     overflow: hidden
@@ -1534,7 +1566,7 @@ body {
 
     .team__overview .employee>div:last-child {
         position: relative;
-        max-width: 1300px;
+        max-width: 1000px;
         padding: 0 25px;
         height: 100%;
         margin: 0 auto;
@@ -1599,7 +1631,7 @@ body {
 .footer div:first-child {
     position: relative;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
     padding: 0 25px;
     overflow: hidden
