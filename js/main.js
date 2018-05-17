@@ -12,11 +12,11 @@ window.onload = function () {
 
     });
     new Vivus('my-svg1', {duration: 200}, function (data) {
-        console.log("THE DxdfgndryjnATA", data);
+        console.log("THE DxdfgndryjnATA888", data);
 
     });
         new Vivus('my-svg2', {duration: 200}, function (data) {
-        console.log("THE DxdfgndryjnATA", data);
+        console.log("THE DxdfgndryjnATlllA", data);
 
     });
     
