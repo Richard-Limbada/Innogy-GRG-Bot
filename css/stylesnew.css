@@ -47,7 +47,11 @@ h2 {
 }
 
 .botArea {
+<<<<<<< HEAD
     background-color: #d3d3d3;
+=======
+    background-color: #f3f3f3;
+>>>>>>> 770cc7ef77f59cd901ff01e0bf08c5571e2a65cb
     width: 100%;
     padding: 200px;
     display: flex;
@@ -60,4 +64,3 @@ h2 {
     height: 300px;
     min-width: 200px;
     border: solid #efe9e9;
-}
