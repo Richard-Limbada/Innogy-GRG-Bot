@@ -1,6 +1,6 @@
 .servicesArea {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
@@ -9,18 +9,25 @@
     align-items: center;
         
 }
+.servicesArea:first-child {
+    padding-top: 100px;
+}
+.servicesArea:nth-last-child(1) {
+    padding-bottom: 100px;
+}
+
 .serviceArea {
     width: 50%;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom:  10px;
     padding-left: 10px;
     padding-right: 10px;
         
 }
 .svgContainer{
     margin-right: 30px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 h2 {
@@ -40,7 +47,7 @@ h2 {
 }
 
 .botArea {
-    background-color: grey;
+    background-color: #d3d3d3;
     width: 100%;
     padding: 200px;
     display: flex;
